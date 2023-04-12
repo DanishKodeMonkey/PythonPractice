@@ -1,0 +1,1 @@
+Standard text document for testing basic file detection!
