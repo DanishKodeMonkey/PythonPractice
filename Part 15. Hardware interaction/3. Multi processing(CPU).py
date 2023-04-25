@@ -26,7 +26,7 @@ def main(): #We define a function called main
     In this case we have one argument, and to differentiate this from an expression
     we end it with a comma(,) we have defined num as 1 billion in this case.
     '''
-    a = Process(target=counter, args=(1000000000,)) #Create process a, which targets counter and counts to 500 mil
+    a = Process(target=counter, args=(250000000,)) #Create process a, which targets counter and counts to 500 mil
     b = Process(target=counter, args=(250000000,)) #Create process b, which targets counter, and counts to 500 mil
     c = Process(target=counter, args=(250000000,)) #Etc
     d = Process(target=counter, args=(250000000,)) #Etc

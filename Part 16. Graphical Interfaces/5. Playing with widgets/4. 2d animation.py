@@ -10,7 +10,7 @@ HEIGHT = 500            #We will make a variable called HEIGHT, and set it at 50
 xVelocity = 2           #we will make a variable called xVelocity, set at 2
 yVelocity = 3           #and yVelocity, set at 3
 
-window = Tk()               #Create a window called window using Tk
+window = Tk()               #Create a window called window using Tk function
 window.config(bg="white")   #configure window, make background white(deprecated due to background image)
 
 canvas = Canvas(window, width=WIDTH, height=HEIGHT) #make a canvas, assign it to window, with the constants set as width and height
